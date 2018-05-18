@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escena.unity
+- path: "Assets/Ca\xF1ons2.unity"
   isLoaded: 1
   isActive: 1

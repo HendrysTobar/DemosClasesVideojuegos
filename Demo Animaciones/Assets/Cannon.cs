@@ -34,14 +34,15 @@ public class Cannon : MonoBehaviour
 
     public void Disparar()
     {
-        Animator anim = GetComponent<Animator>();
-        
-        anim.Play("Disparar");
+        Animator anim = GetComponent<Animator>();        
+        anim.Play("Giro");
     }
 
     #region Métodos
     public void Boom()
     {
+        AudioSource a = GetComponent<AudioSource>();
+        a.Play();
         Instantiate(bala, punta.position,bala.transform.rotation);
     }
 	
